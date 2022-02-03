@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Inconsolata&family=Mochiy+Pop+P+One&family=Patua+One&family=Roboto+Mono&family=Teko:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+html {
+    font-size: 55%;
+}
+
+
+body {
+    background-color: #242424;
+    padding-bottom: 6.5rem;
+}
+
+.navbar {
+    position: fixed;
+    bottom:0; left: 0; right: 0;
+    display: flex;
+    z-index: 1000;
+    align-items: flex-end;
+}
+
+a {
+    padding:3rem;
+    font-size: 2rem;
+    background: #707070;
+    flex:1;
+    color: #fff;
+    transition: 1s;
+}
+
+i {
+    color: crimson;
+    padding-right: .5rem;
+}
+
+
+a:hover {
+    background: #242424;
+    transition: 1s;
+    border-top: 1px dotted black;
+}
+
+
+
+
+.card {
+    max-width: 250px;
+    margin: 150px auto 0;
+    text-align: center;
+    font-size: 20px;
+    background: #707070;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px #fff;
+    transition: 1s;
+}
+
+.card:hover {
+    box-shadow: 0px 2px 30px #fff;
+    transition: 1s;
+}
+
+.card .card-header {
+    position: relative;
+    height: 348px;
+    
+}
+
+.card .card-header .profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid crimson;
+    box-shadow: 0 0 20px #00000033;
+}
+
+.card .card-header .profile-img:hover {
+    width: 180px;
+    height: 180px;
+    border: 8px solid rgb(158, 14, 42);
+}
+
+.card-body {
+    font-size: 3rem;
+    color: #fff;
+}
+
